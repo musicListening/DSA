@@ -23,7 +23,7 @@ public class UnboundedArray {
 
     public void push(int data) {
         if (top == capacity - 1) {
-            resize(capacity * 2); // Double the size
+            resize(capacity * 2); 
         }
         
         top++;
@@ -62,7 +62,6 @@ public class UnboundedArray {
         stack.push(40);
         stack.push(50); 
         
-        // Trigger shrinking
         System.out.println("Popped: " + stack.pop());
         System.out.println("Popped: " + stack.pop());
         System.out.println("Popped: " + stack.pop());
@@ -70,4 +69,5 @@ public class UnboundedArray {
     }
     }
    
+
 
