@@ -10,10 +10,6 @@ package com.mycompany.mavenproject1;
  */
 import java.util.Stack;
 public class QueueStackPopFriendly {
-
-    /**
-     * @param args the command line arguments
-     */
     private Stack<Integer> mainStack;
     private Stack<Integer> helperStack;
 
@@ -52,3 +48,4 @@ public class QueueStackPopFriendly {
     }
     
 }
+
